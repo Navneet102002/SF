@@ -83,3 +83,14 @@ h2, h3{
     display: block;
     position: absolute;
   }
+
+p{
+  text-align: center;
+}
+
+  footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+  }
