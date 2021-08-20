@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Home'
 import Customers from './Customers'
 import Transfers from './Transfers'
-import Indiviual from './Indiviual';
+import Indiviual from './Indiviual'
+import Footer from './Footer';
 import TransferProcess from './TransferProcess'
 //navbar
 import Navbar from './Navbar'
@@ -30,6 +31,7 @@ function App(){
                 <TransferProcess />
             </Route>
         </Switch>
+        <Footer />
     </Router>
 }
 
