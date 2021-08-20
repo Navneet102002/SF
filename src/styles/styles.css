@@ -1,0 +1,85 @@
+h1{
+    font-size: 100px;
+    /* margin-top: 25px; */
+    text-align: center;
+    color: black;
+}
+
+h2, h3{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+  }
+
+.container-fluid{
+    background-color: #39A2DB;
+}
+
+.nameNLogo{
+  color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Button {
+    width: 30%;
+    font-size: 35px;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .Button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  table{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .custDetails {
+    border-radius: 25px;
+    background: #28B5B5;
+    padding: 20px;
+    width: 25%;
+    height: 150px;
+  }
+
+  .show>.dropdown-menu {
+    display: block;
+    position: absolute;
+  }
